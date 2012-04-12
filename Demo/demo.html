@@ -1,4 +1,19 @@
-<form method="post" id="contactForm">
+<html>
+<head>
+  <title>JavaScript Tips and Tricks</title>
+  <script src="functions.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.js"></script>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  
+  <script>
+  $(document).ready(function(){
+    $("#contactForm").validate();
+  });
+  </script>
+</head>
+<body>
+  <form method="post" id="contactForm">
     <table>
       <tr>
         <td><label for="txtName">Name:</label></td><td><input type="text" class="required" name="txtName" id="txtName"/></td>
@@ -33,3 +48,5 @@
       </tr>
     </table>
   </form>
+</body>
+</html>
