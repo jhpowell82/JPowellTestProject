@@ -1,0 +1,8 @@
+---
+ name: Sample Test
+ description: This is a sample test
+ authors:
+   - Jonathan Powell
+ resources:
+ normalize_css: no
+ ...
