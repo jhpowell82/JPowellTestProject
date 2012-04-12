@@ -1,10 +1,11 @@
+/*
 ---
- name: Sample Test
- description: This is a sample test
+ name: Demo
+ description: Demo
  authors:
    - Jonathan Powell
  resources:
-   - /js/empty.js
-   - /css/normalize.css
+
  normalize_css: no
  ...
+ */
