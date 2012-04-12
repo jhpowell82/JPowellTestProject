@@ -1,4 +1,3 @@
-window.addEvent('domready', function() {
+$(document).ready(function(){
     $("#contactForm").validate();
-})
-?
+  });
