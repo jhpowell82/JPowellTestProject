@@ -4,5 +4,7 @@
  authors:
    - Jonathan Powell
  resources:
+   - /js/empty.js
+   - /css/normalize.css
  normalize_css: no
  ...
